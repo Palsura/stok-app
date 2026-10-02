@@ -1,0 +1,14 @@
+{
+  "name": "stok-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stock list for the warehouse team",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
