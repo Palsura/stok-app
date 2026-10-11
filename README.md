@@ -1,7 +1,10 @@
-# stok-app
+# Stok App
 
-Stock list for the warehouse team.
+Bu uygulama Express.js ile yazilmis hafif bir stok takip API-sidir.
 
-    node src/app.js
-
-Works on my machine. — Kaan
+## Kurulum ve Calistirma
+1. Node surumunu secin: nvm use
+2. Bagimliliklari kurun: npm ci
+3. Ayarlari yapin: cp .env.example .env
+4. Testleri calistirin: npm test
+5. Uygulamayi baslatin: npm start
